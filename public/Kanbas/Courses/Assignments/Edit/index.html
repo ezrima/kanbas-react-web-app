@@ -1,0 +1,98 @@
+<head>
+    <style>
+        button{
+            background-color: lightgray;
+        }
+    
+            .flex-container {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: nowrap;
+                background-color: ;
+                }
+            .flex-container > div {
+                vertical-align: top;
+    
+            }
+            .flex-column{
+                display:flex;
+            }
+        </style>
+    
+    </head>
+
+<body>
+    <div>
+        <div class="flex-column">
+           
+            <select >
+                <option value="speedGrader">Speed Grader</option>
+            </select>
+
+
+        </div>
+        <hr>
+        <h3>Assignment Name</h3>
+        <input value="A1 -ENV+ HTML"><p></p>
+        <textarea>This is the assignment description.</textarea><p></p>
+        <label for="points">Points</label><br>
+        <input id="points" value="100"><p></p>
+        <label for="assignmentGroups">Assignment Group</label><br>
+        <select id="assignmentGroups">
+            <option value="ASSIGNMENTS">ASSIGNMENTS</option>
+        </select><p></p>
+        <label for="displayGradeas">Display Grade as</label><br>
+        <select id="displayGradeas">
+            <option value="Percentage">Percentage</option>
+        </select><p></p>
+        <label for="SubmissionType">Submission Type</label><br>
+        <select id="SubmissionType">
+            <option value="SubmissionType">Online</option>
+        </select><p></p>
+        <label>Online Entry Options</label>
+        <br/>
+        <input type="checkbox" value="TEXTENTRY"
+            name="check-oe" id="chkbox-textEntry" checked/>
+        <label for="chkbox-textEntry">Text Entry</label>    <br/>
+
+        <input type="checkbox" value="URL"
+            name="check-oe" id="chkbox-url"/>
+        <label for="chkbox-url">Website URL</label>    <br/>
+
+        <input type="checkbox" value="RECORDING"
+            name="chec-oe" id="chkbox-record" checked/>
+        <label for="chkbox-record">Media Recordings</label> <br/>
+
+        <input type="checkbox" value="ANNOTATION"
+            name="check-oe" id="chkbox-annotation"/>
+        <label for="chkbox-annotation">Student Annotation</label><br/>
+
+        <input type="checkbox" value="FILE"
+            name="check-oe" id="chkbox-fileUpload"/>
+        <label for="chkbox-fileUpload">File Uploads</label><p></p>
+        
+        <input type="checkbox" value="GROUPASSIGNMENT"
+        name="check-ga" id="chkbox-groupAssignment"/>
+        <label for="chkbox-groupAssignment"> Group Assignments</label><p></p>
+
+        <input type="checkbox" value="PEERREVIEW"
+        name="check-pe" id="chkbox-peer"/>
+        <label for="chkbox-peer"> Peer Reviews</label><p></p>
+
+
+        <label>Assign</label><br/>
+        <label for="owner">Assign to</label><br/>
+        <input id="owner" value="Everyone"><p></p>
+
+        <label for="due">Due</label><br/>
+        <input id="due" type="date" ><p></p>
+        <label for="due">Available from</label><br/>
+        <input id="availablefrom" type="date" ><p></p>
+        <label for="due">Until</label><br/>
+        <input id="until" type="date" ><p></p>
+
+        <a href="/public/Kanbas/Courses/Assignments/screen.html"><button id="cancel">Cancel</button></a>
+        <a href="/public/Kanbas/Courses/Assignments/screen.html"><button id="Save">Save</button></a>
+
+    </div>
+</body>

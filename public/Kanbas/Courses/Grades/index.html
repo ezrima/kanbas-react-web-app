@@ -1,0 +1,177 @@
+<head>
+    <style>
+        button{
+            background-color: lightgray;
+        }
+    
+            .flex-container {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: nowrap;
+                background-color: ;
+                }
+            .flex-container > div {
+                vertical-align: top;
+    
+            }
+            .flex-column{
+                display:flex;
+            }
+        </style>
+    
+    </head>
+
+<body>
+    <div>
+        <div class="flex-column">
+            <select >
+                <option value="GRADEBOOK"> Gradebook</option>
+            </select>
+            <button type="button">import</button>
+            <select >
+                <option value="EXPORT">Export</option>
+            </select>
+            <button type="button">Configure</button>
+
+        </div>
+    <h3>Student Names</h3>
+    <form id="text-fields">
+        <label for="text-fields-searchStudents"></label>
+        <input id="text-fields-searchStudents" placeholder="Search Students"/><br/>
+
+     </form>
+    <h3>Assignment Names</h3>
+    <form id="text-fields">
+        <label for="text-fields-searchAssignment"></label>
+        <input id="text-fields-searchAssignment" placeholder="Search Assignment"/><br/>
+
+     </form>
+    <button type="button"> Apply Filters</button>
+   <p></p>
+    <table border="1" width="100%">
+        <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>A1 SETUP<br>Out of 100</th>
+            <th>A2 HTML<br>Out of 100</th>
+            <th>A3 CSS<br>Out of 100</th>
+            <th>A4 BOOTSTRAP<br>Out of 100</th>
+            <th>A5 JAVASCRIPT<br>Out of 100</th>
+            <th>A6 REACT<br>Out of 100</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Alice Wonderland</td>
+            <td>98</td>
+            <td>89</td>
+            <td>87</td>
+            <td>90</td>
+            <td>89</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Princes Leia</td>
+            <td>98</td>
+            <td>80</td>
+            <td>87</td>
+            <td>86</td>
+            <td><input value="2000"></td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Luke Skywalker</td>
+            <td>99</td>
+            <td>88</td>
+            <td>97</td>
+            <td>82</td>
+            <td>96</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Han Solo</td>
+            <td><input value="12"></td>
+            <td>99</td>
+            <td>94</td>
+            <td>98</td>
+            <td>86</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Lando Calresian</td>
+            <td>83</td>
+            <td>92</td>
+            <td>80</td>
+            <td><input value="45"></td>
+            <td>92</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Boba Fet</td>
+            <td>85</td>
+            <td>89</td>
+            <td>94</td>
+            <td>83</td>
+            <td><input value="66"></td>
+            <td>84</td>
+        </tr>
+        <tr>
+            <td>Darth Vader</td>
+            <td>81 </td>
+            <td>81</td>
+            <td>96</td>
+            <td>80</td>
+            <td>89</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Obi-Wan Kenobi</td>
+            <td>85     </td>
+            <td>99</td>
+            <td>87</td>
+            <td>82</td>
+            <td>88</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>R2-D2</td>
+            <td>81</td>
+            <td>92</td>
+            <td>82</td>
+            <td>86</td>
+            <td>83</td>
+            <td>84</td>
+        </tr>
+        <tr>
+            <td>C-3PO</td>
+            <td>94      </td>
+            <td>98</td>
+            <td>83</td>
+            <td>83</td>
+            <td>100</td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td>Yoda</td>
+            <td>80     </td>
+            <td>89</td>
+            <td>99</td>
+            <td>89</td>
+            <td>96</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Admiral Ackbar</td>
+            <td>82     </td>
+            <td>88</td>
+            <td>95</td>
+            <td>100</td>
+            <td>93</td>
+            <td>98</td>
+        </tr>
+        </tbody>
+
+     </table>
+     
+</div>
+</body>
